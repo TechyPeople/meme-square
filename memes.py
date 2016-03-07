@@ -16,4 +16,4 @@ for i in range(1, len(str) - 1):
 
 for i in range(0, len(str) - 1):
 	print str[len(str) - 1 - i],
-print str[0]
+sys.stdout.write(str[0])
